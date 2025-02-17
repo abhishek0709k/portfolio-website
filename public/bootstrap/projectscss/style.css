@@ -1,0 +1,101 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+.img-fluid{
+    height: 50px;
+}
+.callicon{
+    background: linear-gradient(to right, #0ACEFE , #2699FB);
+    border: none;
+}
+.bannerheading{
+    font-size: 52px;
+    font-weight: 700;
+    z-index: 1;
+}
+.modilenoform{
+    position: relative;
+}
+.bannerheading span{
+    color: #2699FB;
+    z-index: 1;
+}
+
+.signimg{
+    position: relative;
+    left: 260px;
+    bottom: 26px;
+    height: 30px;
+}
+
+.bannerpara{
+    font-size: 22px;
+    font-weight: 500;
+}
+.bannerlist {
+    list-style: none;
+}
+.bannerlist li{
+    font-size: 20px;
+}
+.bannerlist li i{
+    color: #2699FB;
+}
+.firstbannerbtn{
+    background:linear-gradient(to right, #0ACEFE , #2699FB);
+    border: none;
+}
+.secondbannerbtn{
+    background-color: transparent;
+    color: black;
+
+     &:hover{
+        background:linear-gradient(to left, #0ACEFE , #2699FB);
+        border: 1px solid transparent;
+    } 
+}
+
+.bannerbtn button{
+    width: 35%;
+}
+.bannerform{
+    padding: 40px;
+    border-radius: 18px;
+}
+.bannerform h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.formbutton button{
+    background: linear-gradient(to right, #0ACEFE , #2699FB);
+    border: none;
+    width: 100%;
+}
+.bannerinfo .col h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2699FB;
+}
+.highlights-part{
+    background-color: #F7F4FF;
+}
+.highlights-part h2{
+    color: #0A2134;
+    font-size: 36px;
+    font-weight: bold;
+}
+.highlights-part p{
+    font-size: 18px;
+}
+.highlightItems h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bookicon button{
+    background: linear-gradient(to right, #0ACEFE , #2699FB);
+    border: none;
+}
+.form-control{
+    height: 40px;
+}
+

@@ -1,0 +1,152 @@
+* {
+    color: white;
+    font-family : "Inter" , sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.stack-para{
+    color: #e5e7eb;
+    display: block;
+}
+.about-para{
+    color: rgb(148 163 184);
+}
+.about-btn {
+    color: rgb(148, 163, 184);
+    width: 300px;
+    display: block;
+    margin-top: 80px;
+}
+.experience-btn , .projects-btn{
+    color: rgb(148, 163, 184);
+    width: 300px;
+    display: block;
+}
+
+.media-icons{
+    position: relative;
+    top: 240px;
+}
+@media (max-width: 576px) {
+    .media-icons{
+        position: relative;
+        top: 10px;
+        text-align: center;
+    }
+    .info-btn{
+        width: 230px;
+    }
+}
+.github-btn , .linkedin-btn , .youtube-btn {
+    color: rgb(148, 163, 184);
+}
+#about-para{
+    margin-bottom: 70px;
+}
+.first-navbar{
+    position: sticky;
+    top: 48px;
+    height: 700px;
+}
+.first-experiences{
+    font-size: 13px;
+}
+.first-experiences-div{
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    transition: all 0.4s ease; 
+    &:hover{
+        background-color: #8888892d;
+        strong {
+            color: rgb(94 234 212);
+            transform: scale(1.1)
+        }
+    }
+}
+.expreience-tools{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgba(133, 241, 225, 0.349);;
+    color: rgb(94 234 212);
+    margin-right: 20px;
+    font-weight: 550;
+}
+
+.about-content{
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease; 
+    &:hover{
+        background-color: #8888892d;
+        bold {
+            color: rgb(94 234 212);
+            transform: scale(1.1)
+        }
+    }
+}
+.heading-para{
+    transition: all 0.6s ease; 
+    &:hover{
+        color: rgb(94 234 212);
+    }
+}
+.github-btn , .linkedin-btn,.youtube-btn {
+    transition: all 0.6s ease; 
+    &:hover{
+        background-color: #8888892d;
+        transform: scale(1.1);
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+#projects{
+    margin-top: 70px;
+}
+.expreience-tools-projects{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgba(133, 241, 225, 0.349);;
+    color: rgb(94 234 212);
+    margin-right: 5px;
+    font-weight: 550;
+}
+.contact{
+    width: 380px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 130px;
+    transition: all 0.4s ease; 
+    &:hover{
+        background-color: #8888892d;
+        strong {
+            color: rgb(94 234 212);
+            transform: scale(1.0)
+        }
+    }
+}
+
+.linkedin-btn-contact , .github-btn-contact , .youtube-btn-contact{
+    text-decoration: none;
+    transition: all 0.3s ease; 
+    &:hover{
+        background-color: #8888892d;
+        padding: 10px;
+        border-radius: 10px;
+        strong {
+            color: rgb(94 234 212);
+             transform: scale(1.1)
+        }
+    }
+}

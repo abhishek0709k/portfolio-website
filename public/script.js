@@ -7,7 +7,7 @@ const projects = document.getElementById("projects")
 const bootstrap_projects = document.getElementById('bootstrap-project')
 const portfolio_project = document.getElementById('portfolio-project')
 const chat_app_project = document.getElementById('chat-app-project')
-
+const youtube_app_project = document.getElementById('youtube-project')
 about_btn.addEventListener('click' , ()=>{
     about_content.scrollIntoView({ behavior : "smooth" })
 })
@@ -29,5 +29,8 @@ portfolio_project.addEventListener("click" , ()=>{
     window.open("/" , "_blank")
 })
 chat_app_project.addEventListener("click" , ()=>{
-    window.open("http://localhost:3000" , "_blank")
+    window.open("http://localhost:9000" , "_blank")
+})
+youtube_app_project.addEventListener("click" , ()=>{
+    window.open("http://localhost:3000")
 })

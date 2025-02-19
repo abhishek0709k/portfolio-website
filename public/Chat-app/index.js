@@ -13,7 +13,7 @@ const jwt = require('jsonwebtoken')
 const commentModel = require("./models/comment")
 const secret = "$uperM@n"
 mongoose.connect('mongodb://127.0.0.1:27017/chat-app-user').then(()=>{ console.log("mongoDB connected successfully") })
-
+const PORT =  9000
 
 app.use(express.static(path.resolve("./public")))
 app.use(express.json())
@@ -89,6 +89,6 @@ app.post("/sendComment" , async(req , res)=>{
     })
     return res.redirect('/')
 })
-server.listen(3000 , ()=>{
-    console.log("Server running on PORT:3000")
+server.listen(PORT , ()=>{
+    console.log(`Server running on PORT:${PORT}`)
 })

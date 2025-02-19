@@ -5,13 +5,12 @@ const messageModel = require("./models/message")
 const { createHmac , randomBytes } = require("crypto")
 const mongoose = require("mongoose")
 const app = express()
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 8001
 mongoose.connect("mongodb://127.0.0.1:27017/portfolio-app").then(()=>{ console.log("mongoDB connected successfully")})
 app.use(express.static(path.join(__dirname , "../public")))
 app.use(express.json())
 app.use(bodyParser.urlencoded({ extended : true }));
 app.use(express.urlencoded({ extended: true }));
-
 app.get("/" , (req , res)=>{
     return res.sendFile(path.join(__dirname, "../public", "home.html"))
 })
@@ -35,9 +34,6 @@ app.get("/amazonCloneProject" , (req , res)=>{
 })
 app.get("/figmaDesignProject" , (req , res)=>{
     return res.sendFile(path.join(__dirname , "../public/bootstrap/projectscss/index.html"))
-})
-app.get("/YoutubeProjectClone" , (req , res)=>{
-    return res.sendFile(path.join(__dirname , "../public/youtube-project/youtube-frontend/App.js"))
 })
 app.listen(PORT , ()=>{
     console.log(`Server is running on PORT:https://localhost:${PORT}`)

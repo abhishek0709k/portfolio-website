@@ -36,7 +36,9 @@ app.get("/amazonCloneProject" , (req , res)=>{
 app.get("/figmaDesignProject" , (req , res)=>{
     return res.sendFile(path.join(__dirname , "../public/bootstrap/projectscss/index.html"))
 })
-
+app.get("/YoutubeProjectClone" , (req , res)=>{
+    return res.sendFile(path.join(__dirname , "../public/youtube-project/youtube-frontend/App.js"))
+})
 app.listen(PORT , ()=>{
     console.log(`Server is running on PORT:https://localhost:${PORT}`)
 })
